@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 0px;
+    text-decoration: none;
+    color: #000;
+}
+
+.redes-sociales a:hover {
+    color: #333;
+}
