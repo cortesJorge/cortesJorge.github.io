@@ -1,46 +1,23 @@
 body {
     font-family: sans-serif;
-    text-align: center;
+    margin: 0; /* Remove default margin for full-page effect */
+    padding: 0; /* Remove default padding for full-page effect */
     background-color: black;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0px;
-    border-radius: 10px;
-    background-color: #fff;
-}
-
-h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-
-img {
-    width: 100%;
-    max-width: 500px;
-    margin-bottom: 10px;
-}
-
-.redes-sociales {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.redes-sociales a {
-    display: inline-block;
-    margin: 0 0px;
-    text-decoration: none;
-    color: #000;
-}
-
-.redes-sociales a:hover {
-    color: #333;
-}
+    height: 100vh; /* Set body height to 100vh (viewport height) */
+    display: flex; /* Allow centering of the container */
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+  }
+  
+  .container {
+    width: 100%; /* Set container width to 100% for full-page width */
+    height: 100%; /* Set container height to 100% for full-page height */
+    overflow: hidden; /* Hide any image overflow */
+  }
+  
+  img {
+    width: 100%; /* Set image width to 100% for full-page width */
+    height: 100%; /* Set image height to 100% for full-page height */
+    object-fit: cover; /* Ensure image covers the entire container */
+  }
+  
